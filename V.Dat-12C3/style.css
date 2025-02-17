@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background: linear-gradient(90deg, rgb(80, 80, 80), rgb(172, 171, 171));
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #2C2C2C;
+    padding: 40px 0;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #FFD700;
+    margin-top: 20px;
+}
+.about, .features, .contact {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.info h2 {
+    margin-left: -30px;
+}
+.features p {
+    text-indent: 20px;
+}
+.features details {
+    margin-bottom: 40px;
+}
+.test summary {
+    margin-right: 5px;
+    font-size: 20px;
+    background: rgb(255, 255, 179);
+    color: #121212;
+    padding: 8px 15px;
+    margin: 7px;
+    border-radius: 5px;
+}
+.test p {
+    margin-left: 20px;
+}
+.social-links a {
+    display: inline-block;
+    margin: 15px;
+    color: #FFD700;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.qr-code {
+    position: fixed;
+    bottom: 20px; /* Cách đáy 20px */
+    right: 20px; /* Cách phải 20px */
+    width: 150px; /* Điều chỉnh kích thước */
+    height: auto;
+    border-radius: 10px; /* Làm tròn góc */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Thêm hiệu ứng đổ bóng */
+    transition: transform 0.3s ease-in-out;
+}
+.qr-code:hover {
+    transform: scale(1.1); /* Hiệu ứng phóng to khi di chuột */
+}
+footer {
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #1A1A1A;
+    color: #fff;
+    bottom: 0;
+    text-transform: uppercase;
+}

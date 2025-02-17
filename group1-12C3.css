@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+}
+nav {
+    background: #ff6f61;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav a:hover {
+    background: #e94e38;
+}
+.about, .inclue, .team, .contact {
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.inclue p {
+    text-align: left;
+    text-indent: 10px;
+    margin-left: 20px;
+    margin-bottom: -5px;
+}
+.hmm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.review {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.review img {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.member {
+    width: 215px;
+    height: 200;
+    margin: 15px;
+    padding: 15px;
+    background: #ffe0b2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.member a {
+    color: black;
+    text-decoration: none;
+}
+.member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.test {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 2px;
+}
+.test img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
