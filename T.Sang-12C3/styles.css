@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #83a075, #b2d1ae);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 17px;
+}
+span {
+    text-align: left;
+    line-height: 1.4;
+}
+.test {
+    margin-top: -10px;
+    text-indent: 20px;
+}
+.profile-card {
+    background: rgb(212, 241, 215);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 1000px;
+}
+.profile-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid Black;
+}
+.profile-card h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.profile-card a {
+    text-decoration: none;
+    color: #007bff;
+}
+.buttons {
+    margin-top: 20px;
+}
+.buttons a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.gmail {
+    background-color: #42baff;
+}
+.messenger {
+    background: #00a2ff;
+}
+.facebook {
+    background: #1877f2;
+}
