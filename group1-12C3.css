@@ -15,6 +15,9 @@ nav {
     background: #ff6f61;
     padding: 10px 0;
     text-align: center;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
 }
 nav a {
     color: white;
@@ -24,17 +27,17 @@ nav a {
 }
 nav a:hover {
     background: #e94e38;
+    border-radius: 50px;
 }
 .about, .inclue, .team, .contact {
     margin: 20px;
     padding: 20px;
     background: #ffffff;
-    border-radius: 10px;
+    border-radius: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .inclue p {
     text-align: left;
-    text-indent: 10px;
     margin-left: 20px;
     margin-bottom: -5px;
 }
@@ -42,6 +45,12 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+}
+.nember {
+    padding: 20px;
+    background-color: #ffe3b7;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .review {
     display: flex;
